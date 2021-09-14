@@ -48,3 +48,5 @@ then
 else
     echo "Starting mosquitto service error"
 fi
+  # Start MQTT Client
+  mosquitto_sub -h localhost -t "test"
